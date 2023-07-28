@@ -1,0 +1,21 @@
+/*styling_css*/
+.ext{
+	background-color: yellow;
+	color: rebeccapurple;
+}
+.e{
+	font-family: sans-serif;
+}
+body{
+	background-color: whitesmoke;
+}
+/*priority*/
+.pr{
+	color: orange;
+}
+/*id_selector*/
+#hi{
+	font-family: cursive;
+	background-color: gray;
+	font-stretch: 20px 10px;
+}
