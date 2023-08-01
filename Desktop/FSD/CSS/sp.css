@@ -1,0 +1,51 @@
+.pre{
+	width: 1520px; 
+	height: 250px; 
+	background-color: whitesmoke;
+}
+.p1{
+	height: 30px; 
+	width: 200px;
+}
+.pt{
+	margin-left: 120px; 
+	margin-top: 20px; 
+	width: 200px; 
+	height: 220px; 
+	font-family: monospace;
+}
+.code{
+	width: 1520px; 
+	height: 200px; 
+	background-color: whitesmoke;
+}
+.c1{
+	height: 30px;
+	width: 200px;
+}
+.ct{
+	 margin-left: 120px; 
+	 margin-top: 20px; 
+	 width: 200px; 
+	 height: 130px; 
+	 font-family: cursive;
+}
+.foot{
+	width: 1520px; 
+	height: 150px; 
+	background-color: whitesmoke;
+}
+.foot > div{
+	display: grid; 
+	place-items: center; 
+	height: 150px;"
+}
+.aa{
+	margin-left:150px; 
+	margin-right: 150px;
+}
+.epam{
+	margin-left: 700px;
+	height: 40px;
+	width: 80px;
+}

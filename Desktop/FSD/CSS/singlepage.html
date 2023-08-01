@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Single Page Website</title>
+	<link rel="stylesheet" type="text/css" href="sp.css">
+</head>
+<body>
+	<div id="home">
+		<img src="../HTML/images/epam.jpg" alt="epam image" class="epam">
+		<h1>HTML Elements</h1>
+			
+				<a href="#home"> Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#header" >Headers</a>&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#table" >Table</a>&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#lists">List</a>&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#textformat">Text formats</a>&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#blockquotes">Blockquotes</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<hr>
+		<div id="header">
+			<p>Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2,because we have to use only one h1 on the page,and it is commonly used inside header</p>
+			<br>
+			<br>
+			<h2>Header 2</h2>
+			<h3>Header 3</h3>
+			<h4>Header 4</h4>
+			<h5>Header 5</h5>
+			<h6>Header 6</h5>
+			<hr>
+
+			<p>
+				Loiein ipsiini dolor sit amet, <a href="http://www.google.com">test link </a>adipiscing elit.<strong>This is strong.</strong>Nullain dignissiin convallis est. Quisqiie aliquam.<emphasize>This is emphasized.</emphasize>Donec faucibus.Nunc iaculis suspict dui.5<sup>3</sup>=125.Water is H<sub>2</sub>0.Nain sit amet sent.Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.<cite>The New York Times</cite>(That's a citation).<u>Underline</u>ñlaecenas ornare tortoi. Donee sed tellus eget sapien friiigilla iioiiuinmJ. Plain is a ante. Siispeiidisse qiiam sent, consequat at, coinrnodo âtae, feiigiat iii, mine. ñlorbi irnperdiet augur <big>quis tellus.</big></p><br>
+			<p>
+				HTML and CSS are our tools. Plain is a ante. <mark>Suspendise </mark>quam seni, eonseqiiat at, eoiTnnodo vitae, feiigiat iii, ruine. hlorbi iinpei diet augue grits tellus. Pt aeseiit mattis, massa quis hiatus fei inentuin, tin pis mi ohitpat justo, en voliitpat eiiim diain eget meters. To copy a file yye COPY" filename.<del>Dinner at 5:00.</del><mark>Let’s make that 7. </mark>This text has been struck.
+			</p>
+		</div>
+	</div>
+
+	<div id="table">
+	<h2>Table</h2>
+	<table border="1px" cellspacing="0px" width="1500px">
+		<tr>
+		<td>Header</td>
+		<td>Header</td>
+		<td>Header</td>
+		</tr>
+		<tr>
+		<td>Lviv</td>
+		<td>Kyiv</td>
+		<td>Kharkiv</td>
+		</tr>
+		<tr>
+		<td>Odessa</td>
+		<td>Zhytomyr</td>
+		<td>Dnipro</td>
+		</tr>
+		<tr>
+		<td>Sumy</td>
+		<td>Chernivtsi</td>
+		<td>Lutsk</td>
+		</tr>
+	</table>
+	</div>
+
+	<div id="lists">
+		<h2>Unordered List</h2>
+		<ul>
+			<li>List item 1</li>
+			<li>List item 2
+				<ul type="disc">
+					<li>Some nested list item 1</li>
+				</ul>
+			</li>
+			<li>List item 1</li>
+		</ul>
+
+		<h2>Ordered List</h2>
+		<ol>
+			<li>List item 1</li>
+			<li>List item 2
+				<ol type="A">
+					<li>Some nested list item 1</li>
+				</ol>
+			</li>
+			<li>List item 1</li>
+		</ol>
+
+		<h2>Definition List</h2>
+		<dl>
+			<dt>defines term 1
+				<dd>description 1</dd>
+			</dt>
+		</dl>
+		<dl>
+			<dt>defines term 2
+				<dd>description 2</dd>
+			</dt>
+		</dl>
+		Details
+		<select>
+			<option>HTML</option>
+			<option>CSS</option>
+			<option>JS</option>
+		</select>
+	</div>
+
+	<div id="textformat">
+		<h2>Text formats</h2>
+		<article>
+			<h3>Article Text</h3>
+			Article Title <br>
+			Article description
+		</article>
+
+		<h2>Preformatted Text</h2>
+		<div  class="pre" >
+			<div class="p1">
+				
+			</div>
+			<div class="pt">
+				
+				Text<br>in a pre element<br>is displayed in a fixed-width<br>font, and it preserves<br>both<br>spaces and <br> line breaks
+			</div>
+		</div>
+
+		<h2>code</h2>
+		<div class="code">
+			<div class="c1">
+				
+			</div>
+			<div class="ct">
+				
+				.wrapper{<br>
+				display:flex;<br>
+				vertical-align: middle;<br>
+				justify-content:center;<br>
+				}
+			</div>
+		</div>
+	</div>
+
+	<div id="blockquotes">
+		<h2>Blockquotes</h2>
+		<paragraph >Let’s keep it simple. Italics are good to help set it off ft om the body text. Be sane to sryle the citation.</paragraph>
+		<p class="aa"><i>"If you go back a few hundred years,what we take for granted today would seem like magic-being able to talk to people over long distances,to transmit images,flying,accessing vast amounts of data like an oracle .These are all things that would have been considered magic a few hundred years ago."</i></p>
+	<a href="https://en.wikipedia.org/wiki/Elon_Musk" class="aa">Elon Musk</a>
+	</div>
+
+	<hr>
+	<div id="form">
+	<form align="right">
+		<label >First name:</label>
+		<input type="text" ><br>
+		<label>Surname:</label>
+		<input type="text" ><br>
+		<label>Email:</label>
+		<input type="Email" ><br>
+		<textarea></textarea><br>
+		<input type="submit" size="150px">
+	</form>
+	</div id="footer">
+	<footer>
+	<div class="foot">
+		<div >@Copyright Epam Systems</div>
+	</div>
+	</footer>
+</body>
+</html>
